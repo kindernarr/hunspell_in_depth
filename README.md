@@ -44,15 +44,19 @@
 tests文件夹里有许多子文件夹，每个子文件夹提供一个实例，往往涉及到man 4 hunspell中提到的一方面。
 一个子文件夹内的文件的文件名有着相同的开头，但扩展名不同。
 比如：
-needaffix2.dic
-needaffix2.aff
-needaffix2.morph
-needaffix2.good
+
+- needaffix2.dic
+- needaffix2.aff
+- needaffix2.morph
+- needaffix2.good
+
+
 
 我们先看看这些扩展名：
-.dic	词典文件，里面的内容类似纸质词典里的词头(lexem)。
-.aff	还原规则集，里面写了怎样把一个加了前缀后缀或与其他词语复合的复杂形式，转化为一个词典中存在的词头的许多组规则。
-.morph	Hunspell程序在Linux Shell里面运行的结果。
-.good	能通过语法检查的正确词形。
-.wrong	不能通过语法检查的错误词形。
-.sug	针对错误词形或正确但罕见的词形，hunspell会认为用户拼错了，会推荐一些它认为正确的词形供采纳。
+
+- .dic	词典文件，里面的内容类似纸质词典里的词头(lexem)。
+- .aff	还原规则集，里面写了怎样把一个加了前缀后缀或与其他词语复合的复杂形式，转化为一个词典中存在的词头的许多组规则。
+- .morph	Hunspell程序在Linux Shell里面运行的结果。
+- .good	能通过语法检查的正确词形。
+- .wrong	不能通过语法检查的错误词形。
+- .sug	针对错误词形或正确但罕见的词形，hunspell会认为用户拼错了，会推荐一些它认为正确的词形供采纳。
