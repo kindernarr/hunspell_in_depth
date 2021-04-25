@@ -1,0 +1,2 @@
+# hunspell_in_depth
+向德语系学生介绍hunspell的词形还原功能
